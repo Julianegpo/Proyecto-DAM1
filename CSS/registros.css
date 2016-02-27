@@ -1,0 +1,11 @@
+﻿#formulario_registro{
+text-align: center;
+margin-left: 350px;
+margin-top: 10px;
+border: 2px solid green;
+border-radius: 10px;
+padding-left:50px;
+padding-right:50px;
+padding-top:10px;
+box-shadow: 2px 2px 2px 2px grey;
+}

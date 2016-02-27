@@ -1,0 +1,187 @@
+ul, li, h1, h2, h3, h4, h5, h6, body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div, span, header, article, aside, nav, ul, li{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+font-weight:bold;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}
+
+.withSpace{
+    width: 100%;
+}
+
+.button{
+    border: solid 2px blue;
+    color: red;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 85px;
+}
+.button{
+    color: blue;
+}
+
+body{
+    font-size: 1em;
+    font-family: sans-serif;
+	font-weight: bold;
+}
+body>header{
+    width: 100%;
+	}
+#main{
+    display: block;
+    width: 95%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+#mitgPrincipal{
+    width:80%;
+}
+
+#addPrincipal{
+    width:20%;
+    text-align: right;
+    height: 20%;
+}
+
+#addPrincipal>img{
+    width:100%;
+    height: 90%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+body>footer{
+    text-align: center;
+}
+
+#headerTop{
+    height: 150px;
+    text-align:left;
+    width: 100%;
+}
+
+#headerTop>.left{
+    height: 100%;
+}
+
+#headerTop>.left>img{
+    max-height: 100%;
+}
+
+#headerTop>.middle{
+    height: 100%;
+    margin-left: 7%;
+}
+
+
+#headerTop>.middle>img{
+    max-height: 100%;
+}
+
+#headerTop>.right{
+    position: absolute;
+    right: 30px;
+    top: 0px;
+    min-width: 150px;
+}
+
+contDesplegable>form>*{
+    display: block;
+}
+
+contDesplegable>formulari{
+    text-align: center;
+    }
+
+.contDesplegable>.hidDesplegable{
+    display: none;
+    position: absolute;
+    text-align: left;
+    z-index: 15;
+}
+.contDesplegable:hover>.hidDesplegable{
+    display: block;
+    border-radius: 15px;
+    background:  #89A6E8;
+    padding: 10px;
+}
+.botonsTop>.button{
+    display: none;
+}
+#login_1{
+    background: blue;
+    width: 100px;
+    color: red;
+    height: 75px;
+    text-align: center;
+    border-radius: 15px;
+    background:  #89A6E8;
+    padding: 10px;
+}
+.middle ul>li{
+    display:block;
+    color: white;
+}
+.middle ul{
+    display:block;
+}
+.middle>section{
+    height: 100px;
+    width: 550px;
+}
+.middle>section>nav{
+    height: 100px;
+    width: 200px;
+}
+.Infolinks{
+    height:100px;
+    width:200px;
+    display:hidden;
+    overflow:hidden;
+}
+.topTable{
+ display: inline-block;
+ width: 30%;
+}
+.Infolinks>div{
+    height:100%;
+}
+.topTable td{
+    padding-bottom:15px;
+}
+.topTable{
+    vertical-align: top;
+}
+body{
+    background-image:url("guitarra.jpg");
+}
+#ordenar{
+font-size: 50px;
+}

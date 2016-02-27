@@ -1,0 +1,52 @@
+/* Ejercicio 1*/
+#headerTop > .middle{
+    display: none;
+}
+#topLlista3{
+    width:100%;
+}
+div>.topTable{
+    overflow: auto;
+    height:500px;
+}
+
+/* Ejercicio 3*/
+@media screen and (max-width: 650px){
+  
+    .botonsTop > .button{
+        display:inline-block;
+    }
+    #addPrincipal{
+        position:fixed;
+        width:100%;
+        bottom:0px;
+        left:0px;
+        height:100px;
+        z-index: 10;
+        background-color:black;
+        text-align:center;
+    }
+    body>footer{
+        padding-bottom:100px;
+    }
+    #addPrincipal>img{
+        width:40%;
+        height:100%;
+        margin:0;
+    }
+    #topLlista1{
+        width:500px;
+        height:500px;
+        overflow:hidden;
+    }
+    #mitgPrincipal{
+        width:500px;
+        height:500px;
+    } 
+	.right>span{
+		position: absolute;
+		right: 20px;
+		top: 41px;
+	}
+}
+
